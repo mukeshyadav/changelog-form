@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Changelog Form</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- CSS  -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="container">
+  <form name="contact" method="">
+    <ul>
+      <li>
+        <label for="title">Title</label>
+        <select name="title" id="title">
+          <option value="mr" selected="selected">Mr.</option>
+          <option value="mrs">Mrs.</option>
+        </select>
+      </li>
+      <li>
+        <label for="name">Name</label>
+        <input type="text" id="name" value="Mukesh Yadav">
+      </li>
+      <li>
+        <label for="sex">Sex</label>
+        <input type="radio" name="sex" value="male" checked="checked">
+        Male
+        <input type="radio" name="sex" value="Female">
+        Female </li>
+      <li>
+        <label for="interest">Interests</label>
+        <input type="checkbox" value="sports" checked="checked">
+        Sports
+        <input type="checkbox" name="movie" value="movie">
+        Movie </li>
+      <li>
+        <input type="submit" value="Submit">
+      </li>
+    </ul>
+  </form>
+</div>
+<!-- scripts -->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+<script src="jquery.changelog.js"></script> 
+<script>
+  $('form').changelog();
+</script>
+</body>
+</html>
