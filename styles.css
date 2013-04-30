@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  margin: 0;
+	padding: 0;
+}
+
+body{
+	color: #666;
+	font: normal 12px/normal Arial, Helvetica, sans-serif;
+}
+
+ul, li{
+	list-style: none;
+}
+
+a:hover{
+	-webkit-transition: color 0.5s ease-in-out;
+	-moz-transition: color 0.5s ease-in-out;
+	transition: color 0.5s ease-in-out;
+}
+
+#container{
+	margin: 20px auto;
+	width: 500px; 
+}
+
+form li{
+	padding: 5px;
+	margin: 0 0 5px 0;
+}
+
+form li.highlighter{
+	background-color: #feffbb;
+	
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+form label{
+	float: left;
+	width: 100px;
+}
+
+form input{
+	color: #333;
+	font: normal 12px/normal Arial, Helvetica, sans-serif;	
+	padding: 2px;
+}
+
+.overlay{
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.overlay .o-content{
+	background-color: #fff;
+	margin: 20px auto;
+	padding: 20px;
+	position: relative;
+	width: 300px;
+}
+
+.overlay li{
+	padding: 5px 0;
+}
+
+.overlay ul{
+	padding: 15px 0;
+}
+
+.overlay li:first-child{
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+.overlay a{
+	color: #006dc9;
+	text-decoration: underline;
+}
+
+.o-close{
+	float: right;
+}
+
+.o-submit{
+	bottom: 20px;
+	left: 125px;
+	position: absolute;
+}
+
