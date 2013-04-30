@@ -4,6 +4,7 @@
 * @authotr Mukesh Yadav, mukeshyadav@gmail.com  
 * Plugin key values can be modified, if modified then corresponding CSS will change
 * There an issue with highlighter class on checkbox select... on which i am working
+* Released under the MIT license
 */
 
 ;( function ( $, window, document, undefined ) {
