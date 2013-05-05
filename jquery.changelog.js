@@ -8,7 +8,7 @@
  * @author Mukesh Yadav, mukeshyadav@gmail.com  
  
  * Copyright 2013, Mukesh Yadav
- * Released under the MIT license
+ * Released under the GPL license (http://en.wikipedia.org/wiki/GPL)
 */
 
 ;( function ( $, window, document, undefined ) {
