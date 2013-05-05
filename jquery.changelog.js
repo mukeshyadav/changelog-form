@@ -1,10 +1,14 @@
-/*! jQuery changelog plugin 
-* This plugin required jQuery version 1.9.1 and above
-* Tested on Chrome 26.0.1410.64, IE8, Firefox 20.0.1
-* @authotr Mukesh Yadav, mukeshyadav@gmail.com  
-* Plugin key values can be modified, if modified then corresponding CSS will change
-* There an issue with highlighter class on checkbox select... on which i am working
-* Released under the MIT license
+/*
+ * jquery.changelog.js
+ * https://github.com/mukeshyadav/changelog-form
+ 
+ * required jQuery version 1.9.1 and above
+ * Tested on Chrome 26.0.1410.64, IE8, Firefox 20.0.1
+
+ * @author Mukesh Yadav, mukeshyadav@gmail.com  
+ 
+ * Copyright 2013, Mukesh Yadav
+ * Released under the MIT license
 */
 
 ;( function ( $, window, document, undefined ) {
